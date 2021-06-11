@@ -1,3 +1,2 @@
-# restaurant-website
+# Cafe website
 
-Website template for a restaurant
