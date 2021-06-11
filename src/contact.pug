@@ -1,0 +1,25 @@
+include components/header
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="static/css/styles.min.css")
+    title Your local café
+  body
+    include components/nav
+
+    +header("Contact us")
+
+    section
+      h2 Contacts
+      .contacts
+        a(href="mailto:example@example.com", target="_blank", rel="noreferrer") Email
+        a(href="https://instagram.com/", target="_blank", rel="noreferrer") Instagram
+        a(href="https://twitter.com/", target="_blank", rel="noreferrer") Twitter
+
+    hr
+
+    include components/footer
