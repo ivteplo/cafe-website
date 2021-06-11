@@ -5,8 +5,9 @@ include components/header
 mixin gallery-item(img, title, description)
   .gallery-item
     img(src=img, alt=title)
-    h3= title
-    p= description
+    div.gallery-item-info
+      h3= title
+      p= description
 
 block head
   title Menu | Your local café

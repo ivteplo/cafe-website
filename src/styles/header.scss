@@ -9,6 +9,7 @@ header {
 
   background-image: url("https://images.unsplash.com/photo-1559305616-3f99cd43e353?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80");
   background-size: cover;
+  background-position: center;
   color: white;
 
   position: relative;
@@ -20,7 +21,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
   }
 
