@@ -1,0 +1,30 @@
+include components/header
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="static/css/styles.min.css")
+		title Your local café
+	body 
+		include components/nav
+
+		+header("Your local café", "Come and drink coffee you like the most")
+		
+		section 
+			h2 Always near you
+			p We have more than 20 cafés in different parts of your city. So you can come to us at any time wherever you are.
+		
+		section 
+			h2 Different coffee varieties
+			p We provide almost any type of coffee: from Turkish to Ethiopian, from French to Spanish roast
+
+		section 
+			h2 Tasty things to eat while drinking coffee
+			p Sometimes you want to eat something tasty, like a donut or a cake, while drinking your favourite coffee. And we can satisfy your feelings. Everyday our bakery makes a lot of delicious cakes, donuts, cheesecakes etc.
+
+		hr
+
+		include components/footer
